@@ -1,0 +1,68 @@
+body {
+  background-color: #424d4d;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 200px;
+  text-shadow: 2px 4px #000;
+}
+
+#demo {
+  color:#0bd40b;
+  font-size: 30px;
+  text-align:center;
+  font-weight: 300px;
+  text-shadow: 1px 2px #000;
+  margin-top: 25px;
+
+}
+
+h1:hover {
+  font-size: 60px;
+  font-weight: 300px;
+  text-shadow: 2px 4px #000;
+  color: aqua;
+}
+
+.container {
+  max-width: 500px;
+  background-color: #424d4d;
+}
+
+.filter {
+  display: none !important;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #000;
+  border: none;
+  background-color: #ededed;
+  max-width: 500px;
+}
+input[type="text"]:hover {
+  border: 2px #0bd40b solid;
+  background-color: #b19e9e;
+  max-width: 600px;
+  color: #fff;
+}
+
+.todo li {
+  background: #dedede;
+  display: inline-block;
+}
+.todo li:hover {
+  background: #3f7a44;
+  color:white;
+  height: 55px;
+  
+}
+.delet:hover {
+  cursor: pointer;
+  color: #fff;
+  font-size: 40px;
+}
+.delet {
+  cursor: pointer;
+  color: rgb(19, 177, 224);
+}
